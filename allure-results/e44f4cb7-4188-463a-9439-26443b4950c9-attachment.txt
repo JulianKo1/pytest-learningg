@@ -1,0 +1,4 @@
+2025-11-24 03:55:22,434 | BASE_ELEMENT | INFO | Getting locator with "data-testid=a.bpm-button.bpm-button--default.bpm-button--primary" at index "0"
+2025-11-24 03:55:22,435 | BUTTON | INFO | Checking that button "ADD Todo Input" is enabled
+2025-11-24 03:55:22,605 | BASE_ELEMENT | INFO | Getting locator with "data-testid=a.bpm-button.bpm-button--default.bpm-button--primary" at index "0"
+2025-11-24 03:55:22,606 | BASE_ELEMENT | INFO | Clicking button "ADD Todo Input"
