@@ -12,7 +12,7 @@ class ChartViewComponent(BaseComponent):
     :param identifier: Базовый ID виджета (например, "students", "scores", "courses")
     :param chart_type: Тип графика (например, "bar", "line", "pie")
     """
-    def __init__(self, page: Page, idenifier: str, chart_type: str):
+    def __init__(self, page: Page, identifier: str, chart_type: str):
         super().__init__(page)
 
         # Элемент заголовка графика
@@ -21,7 +21,7 @@ class ChartViewComponent(BaseComponent):
         # Элемент изображения самого графика
         self.chart = Image(page, f'{identifier}-{chart_type}-chart', 'Chart')
     
-    @allure.step(f'Check visible chart view "{title}"')
+    @allure.step('Check visible chart view "{title}"')
     def check_visible(self, title: str):
         """
         Проверяет, что чарт отображается корректно:

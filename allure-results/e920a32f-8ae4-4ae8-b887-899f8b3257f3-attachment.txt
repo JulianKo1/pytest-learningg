@@ -1,2 +1,0 @@
-[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Getting locator with "data-testid=new-todo-input" at index "0"
-[32mINFO    [0m BASE_ELEMENT:base_element.py:72 Checking that button "ADD Todo Input" is visible

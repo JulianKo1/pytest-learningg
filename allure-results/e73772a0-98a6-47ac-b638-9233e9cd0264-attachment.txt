@@ -1,2 +1,0 @@
-2025-11-24 03:23:28,783 | BASE_ELEMENT | INFO | Getting locator with "data-testid=new-todo-input" at index "0"
-2025-11-24 03:23:28,784 | BASE_ELEMENT | INFO | Checking that button "ADD Todo Input" is visible

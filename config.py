@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     """
 
     model_config = SettingsConfigDict(
-        env_file = '.env' # Загрузка переменных из файла .env
+        env_file = '.env', # Загрузка переменных из файла .env
         env_file_encoding='utf-8',
         env_nested_delimiter='.' # Позволяет использовать вложенные переменные, если потребуется
     )

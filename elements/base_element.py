@@ -43,7 +43,7 @@ class BaseElement:
         step = f'Getting locator with "data-testid={locator}" at index "{nth}"'
         with allure.step(step):
             logger.info(step)
-            return self.page.locator(locator).nth(nth)
+            return self.page.get_by_test_id(locator).nth(nth)
     
     def click(self, nth: int = 0, **kwargs):
         """

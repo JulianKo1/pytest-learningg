@@ -1,4 +1,0 @@
-[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Getting locator with "data-testid=button.bpm-button.bpm-button--alternative.bpm-button--tertiary" at index "0"
-[32mINFO    [0m BUTTON:button.py:35 Checking that button "ADD Todo Input" is enabled
-[32mINFO    [0m BASE_ELEMENT:base_element.py:45 Getting locator with "data-testid=button.bpm-button.bpm-button--alternative.bpm-button--tertiary" at index "0"
-[32mINFO    [0m BASE_ELEMENT:base_element.py:59 Clicking button "ADD Todo Input"

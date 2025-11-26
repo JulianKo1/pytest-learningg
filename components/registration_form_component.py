@@ -1,8 +1,8 @@
 import allure
 from playwright.sync_api import Page
 
-from component.base_component import BaseComponent
-from element.input import Input
+from components.base_component import BaseComponent
+from elements.input import Input
 
 class RegistrationFormComponent(BaseComponent):
     """
@@ -29,13 +29,13 @@ class RegistrationFormComponent(BaseComponent):
         self.email_input.check_have_value(email)
 
         self.username_input.fill(username)
-        self.email_input.check_have_value(username)
+        self.username_input.check_have_value(username)
 
         self.password_input.fill(password)
-        self.email_input.check_have_value(password)
+        self.password_input.check_have_value(password)
 
     @allure.step("Check that registration form is visible")
-    def check_visible(self, email: str, username: str, password: str)
+    def check_visible(self, email: str, username: str, password: str):
         """
         Проверяет, что форма регистрации отображается корректно и содержит указанные значения.
 

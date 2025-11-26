@@ -1,6 +1,6 @@
 from elements.base_element import BaseElement
 
-class Link(ButtonElement):
+class Link(BaseElement):
     """
     Класс для работы с ссылками на странице.
     Наследует все основные методы от BaseElement, предоставляя возможность
