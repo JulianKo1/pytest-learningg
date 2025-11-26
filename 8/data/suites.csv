@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1769","Successful registration","tests","Wed Nov 26 00:33:35 UTC 2025","passed","Wed Nov 26 00:33:37 UTC 2025","TestRegistration","test_registration","",""
